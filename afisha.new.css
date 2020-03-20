@@ -1,0 +1,231 @@
+.pubDate {display:none; }
+.event {
+    border:0px solid green;
+    width:230px;
+    float:left;
+    margin:0px 0px 20px 15px;
+    height:290px;
+    cursor:pointer;
+}
+.event:hover {
+    background:#dbdfe6;
+
+}
+.categoryTitle {display:none;}
+.image {
+    width:230px;
+    height:153px;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size:cover !important;
+}
+.image img {}
+
+.shortDesc {
+	font-size:15px;
+	height:20px;
+	width:225px;
+	display:block;
+	margin-top:-20px;
+	color:#FFF;
+	padding:0px 0px 0px 5px;
+	background-color:#252c3869;
+	overflow:hidden;
+}
+
+.title {
+    margin: 10px 0px 7px 0px;
+    text-align: left !important;
+    font-weight: bold;
+    text-decoration:none !important;
+    color: #2e3641;
+    font-size:16px;
+    line-height: 1; }
+
+.date, .time
+{
+    font-size:16px;
+}
+
+.location {font-size:15px; margin-top:5px;}
+
+.afisha {   }
+
+
+.afisha .item a {
+text-decoration:none;
+color:#2e3641;
+font-size:16px;
+line-height: 1;
+
+}
+.afisha .item .title  {
+    font-weight: bold;
+    color: #2e3641;
+    ont-size:16px;
+    line-height: 1;
+    text-align:center !important;
+}
+
+#afisha h3 {
+    cursor:pointer;
+
+}
+
+#afisha h3 div {
+    width:70px;
+    display: inline-block;
+}
+#afisha h3 div.arrow {
+	margin-top:2px;
+    display:inline-block;
+    height:16px;
+    width:16px;
+    background:url('/Content/afisha/media/arrow.png') no-repeat;
+    transition: transform .2s;
+}
+#afisha h3 div.arrow.active {
+	transform: rotate(-180deg);
+}
+
+
+
+
+
+/* ****************** POPup tooltip ************************ */
+
+.tooltip {
+    display: none;
+	padding: 15px; 
+    position: absolute;
+	background: #000;
+	border-radius: 4px; 
+	color: #fff;
+}
+
+/* ****************** / POPup tooltip ************************ */
+
+/*
+<div class="row pop-up">
+	<div class="box small-6 large-centered">
+		<a class="close-button" href="#">✖</a>
+		<h3>
+			Добро пожаловать на сайт</h3>
+		<p>
+			Здесь мы пишем краткое описание</p>
+		<p>
+			Ну и конечно же полный текст окна.</p>
+		<a class="button" href="#">Перейти сюда</a></div>
+</div>
+*/
+.pop-up {
+	/* position: fixed; */
+    position:absolute;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    z-index: 2; width:1000px;
+}
+
+.pop-up .box {
+    background-color: whitesmoke;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    position: relative;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+
+}
+
+.pop-up .box .eventContent {
+	padding:0px;
+}
+
+.pop-up .button {
+    margin 0 auto;
+  background-color: #7CCF29;
+    margin-bottom: 33px;
+}
+
+.pop-up .button:hover {
+    background-color: #ef4b4b;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+}
+
+.pop-up .close-button {
+    transition: all 0.5s ease;
+    position: absolute;
+    background-color: #76b2d4;
+    padding: 1.5px 7px;
+    left: 0;
+    margin-left: -10px;
+    margin-top: -9px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: white;
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: -3px 1px 6px 0px rgba(0,0,0,0.1);
+}
+
+.pop-up .close-button:hover {
+    background-color: tomato;
+    color: #fff;
+}
+
+.pop-up h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: #76b2d4;
+}
+
+.pop-up p {
+    padding: 20px 65px 10px 65px;
+    color: #406880;
+}
+
+.pop-up h1 {
+    color: dimgray;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+/* POPup */
+
+.nav-path h1 {
+	font-size:27px;
+}
+
+.menu_afisha {
+	background-color:#dbdfe6;
+	width:1280px;
+	margin:7px -5px 0px auto;
+}
+.menu_afisha table {
+	margin:0 auto;
+}
+.menu_afisha table tr td{
+	padding:4px 50px 4px 50px;
+}
+.menu_afisha table tr td a{
+	text-decoration:none;
+	color:#2c5c87e0;
+	font-family: "PTSansBold";
+	font-style: normal;
+	font-size:18px;
+}
+.menu_afisha table tr td a:hover {
+/*	border-bottom:3px solid #4195d1;*/
+}
+
+.exhibitions:hover { border-bottom:3px solid #281473; display:inline;}
+.concerts:hover { border-bottom:3px solid #7c3f8c; display:inline;}
+.activity:hover { border-bottom:3px solid #f34747; display:inline;}
+.performances:hover { border-bottom:3px solid #80be03; display:inline;}
+.movie:hover { border-bottom:3px solid #0075b4; display:inline;}
+
