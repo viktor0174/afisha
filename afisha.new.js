@@ -1,5 +1,5 @@
 /**
-
+    Data request followed by parsing
 */
 $(document).ready(function(){
 	$.ajax({
@@ -18,8 +18,6 @@ function xmlParser(xml) {
 		}
 	});
 }
-
-/* ****************** POPup tooltip ************************ */
 $(document).ready(function(){
 	$('.event').mousemove(function(e){
 		var X = e.pageX;
@@ -41,30 +39,6 @@ $(document).ready(function(){
 		});
 	});
 })
-/* ****************** / POPup tooltip ************************ */
-/*
-$(".mainCnt").append('<div class="row pop-up"><div class="box small-6 large-centered"><a class="close-button" href="#">✖</a><h3>Добро пожаловать на сайт</h3><p>Здесь мы пишем краткое описание</p><p>Ну и конечно же полный текст окна.</p><a class="button" href="#">Перейти сюда</a></div></div>')
-*/
-/*
-<div class="row pop-up">
-	<div class="box small-6 large-centered">
-		<a class="close-button" href="#">✖</a>
-		<h3>
-			Добро пожаловать на сайт</h3>
-		<p>
-			Здесь мы пишем краткое описание</p>
-		<p>
-			Ну и конечно же полный текст окна.</p>
-		<a class="button" href="#">Перейти сюда</a></div>
-</div>
-*/
-
-
-/* END */
-
-/* START POPup */
-
-/* POPup */
 $(function() {
 	$('.pop-up').hide();
 	//$('.pop-up').fadeIn(1000);
@@ -74,8 +48,7 @@ $(function() {
 		$('#overlay').addClass('blur-out');
 		e.stopPropagation();
 	});
-});
-/* /POPup */
+})
 
 function roughSizeOfObject( object ) {
     var objectList = [];
